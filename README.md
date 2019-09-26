@@ -63,6 +63,14 @@ Create the cluster and deploy the workload by running an update:
 pulumi up
 ```
 
+## Access Workloads
+
+```bash
+pulumi stack output appUrls
+```
+
+Visit each of the URL's listed to navigate to their respective NGINX instance.
+
 ## Clean Up
 
 Run the following command to tear down the resources that are part of our
